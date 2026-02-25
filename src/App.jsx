@@ -10,7 +10,7 @@ import GuideButton from './pages/pub/GuideButton';
 
 function App() {
 	return(
-		<BrowserRouter>
+		<BrowserRouter basename="/pubReact/">
 			<Routes>
 				<Route path="/pub" element={<PubLayout />}>
 					{/* 작업목록 */}
